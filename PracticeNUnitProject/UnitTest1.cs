@@ -54,6 +54,9 @@ namespace PracticeNUnitProject
         [TestCase(20, 10, 2)]
         [TestCase(20, 2, 10)]
         [TestCase(12, 12, 1)]
+        [TestCase(1, 3, 2)]
+        [TestCase(2, 1, 2)]
+        [TestCase(9, 3, 3)]
 
         public void DivisionMethodTestCase(double firstnumber, double secondnumber, double expectedresult)
         {
