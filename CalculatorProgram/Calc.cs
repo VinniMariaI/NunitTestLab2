@@ -66,7 +66,7 @@ namespace CalculatorProgram
         {
             try
             {
-                return Math.Round((firstNumber / secondNumber), 2);
+                return Math.Round((firstNumber * secondNumber), 2);
             }
             catch (DivideByZeroException)
             {
